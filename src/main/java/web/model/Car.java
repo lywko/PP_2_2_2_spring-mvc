@@ -1,11 +1,11 @@
 package web.model;
 
+
 public class Car {
 
     private String model;
     private String color;
     private int series;
-
 
 
     public Car(String model, String color, int series) {
@@ -37,4 +37,6 @@ public class Car {
     public void setSeries(int series) {
         this.series = series;
     }
+
+
 }
